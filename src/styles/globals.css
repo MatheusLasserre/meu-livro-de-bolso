@@ -1,9 +1,50 @@
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('/fonts/RobotoSlab/RobotoSlab.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('/fonts/Archivo/Archivo.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('/fonts/Archivo/Archivo-Italic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-size: 10px;
+  font-family:Archivo, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  --SHADOW: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --SHADOW-MD: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --SHADOW-LG: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --SHADOW-INNER: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --BEZIER: cubic-bezier(0.5, 0, 0.2, 1);
+  --BUTTON-RADIUS: 30px;
+  --BUTTON-SHADOW: 0px 4px 15px 0px rgba(0, 0, 0, 0.26);
+
+  --VERMELHO1: #FF1B03;
+  --PRETO: #1E2118;
+  --VERDE: #DEED4F;
+  --ROXO: #9F5EDD;
+  --CREME: #FFFF9C;
+  --BRANCO: #FFFFFF;
+  --CINZA: #E7DECD;
 }
 
 a {
