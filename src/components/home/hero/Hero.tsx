@@ -20,11 +20,10 @@ export const Hero: React.FC = () => {
           Transforme seu livro em uma <span className={Style.redBold}>experiência auditiva</span> e{' '}
           <span className={Style.redBold}>imersiva</span> para as novas gerações.
         </h2>
+        <Link href={buttonLink} className={Style.button}>
+          Quero Transformar meu livro em audiobook
+        </Link>
       </div>
-
-      <Link href={buttonLink} className={Style.button}>
-        Quero Transformar meu livro em audiobook
-      </Link>
       <HeroArt />
     </div>
   )

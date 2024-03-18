@@ -540,6 +540,9 @@ const IconArt3: React.FC = () => {
       viewBox='0 0 338 221'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
+      style={{
+        marginRight: '-140px',
+      }}
     >
       <g clip-path='url(#clip0_66_307)'>
         <rect x='30' width='147' height='106' rx='10' fill='white' />

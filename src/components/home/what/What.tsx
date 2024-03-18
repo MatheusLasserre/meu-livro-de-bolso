@@ -4,8 +4,8 @@ export const What: React.FC = () => {
   return (
     <div className={Style.container}>
       <LogoIcon />
+      <div className={Style.dummy}></div>
       <div className={Style.flex}>
-        <div className={Style.flexItem}></div>
         <div className={Style.flexItem}>
           <p className={Style.headline}>O que é a Meu Livro de Bolso?</p>
           <p className={Style.paragraph}>
