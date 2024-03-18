@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 67px;
+    padding-bottom: 258px;
+background:url('/assets/home/footer.png') no-repeat 0% 100%,url('/assets/home/footer.png') no-repeat 117.5% 100% ,var(--PRETO);
+}
+
+.disclaimer {
+    font-size: 18px;
+    font-family: Archivo;
+    font-weight: 700;
+    color: var(--CREME);
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+    padding-bottom: 167px;
+    background:url('/assets/home/footer2.png') no-repeat 0% 100% / 100%,var(--PRETO);
+    }
+    
+}

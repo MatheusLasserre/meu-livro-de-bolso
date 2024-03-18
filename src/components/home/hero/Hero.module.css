@@ -78,7 +78,8 @@
     color: var(--CREME);
     text-transform: uppercase;
     text-align: center;
-    z-index: 999;
+    z-index: 9999;
+    position: relative;
 }
 
 @media screen and (max-width:800px) {

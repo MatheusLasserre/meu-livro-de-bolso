@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--CREME);
+
+    width: 100%;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    
+}
+
+.embedList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    max-width: 1500px;
+    background: url('/assets/home/logo-bg.png') no-repeat 47.5% 50%;
+}
+
+.embedList > iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    aspect-ratio: 16/9;
+    max-width: 1097px;
+}
+
+.headline {
+    font-size: 32px;
+    font-family: RobotoSlab;
+    text-align: center;
+    width: 100%;
+    color: var(--PRETO);
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
