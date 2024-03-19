@@ -4,7 +4,7 @@ import Logo from '~/../public/assets/home/hero-logo.png'
 import Link from 'next/link'
 import HeroArtImage from '~/../public/assets/home/hero-art.png'
 export const Hero: React.FC = () => {
-  const buttonLink = '#'
+  const buttonLink = 'https://forms.gle/XQM8etSLkb1Y3ezQ9'
   return (
     <div className={Style.container}>
       <div className={Style.box}>

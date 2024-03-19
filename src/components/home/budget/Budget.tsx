@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Style from './Budget.module.css'
 
 export const Budget: React.FC = () => {
-  const linkURL = '#'
+  const linkURL = 'https://forms.gle/XQM8etSLkb1Y3ezQ9'
   return (
     <div className={Style.container}>
       <div className={Style.flex}>

@@ -56,3 +56,73 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.topright::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 234px;
+  height: 234px;
+  background: url('/assets/home/upright.png');
+  background-size: contain;
+  content: '';
+}
+
+.bottomleft::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 157px;
+  height: 234px;
+  background: url('/assets/home/bottomleft.png');
+  background-size: contain;
+  content: '';
+}
+
+.bottomright::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 252px;
+  height: 248px;
+  background: url('/assets/home/bottomright.png');
+  background-size: contain;
+  content: '';
+} 
+
+.toprightMobile::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 234px;
+  height: 234px;
+  background: url('/assets/home/upright.png');
+  background-size: contain;
+  content: '';
+}
+
+@media screen and (max-width: 768px) {
+  .topright::before {
+    display: none;
+  }
+  .bottomleft::before {
+    display: none;
+  }
+  .bottomright::after {
+    display: none;
+  }
+
+  
+  .toprightMobile::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 134px;
+    height: 134px;
+    background: url('/assets/home/upright.png');
+    background-size: contain;
+    content: '';
+  }
+  
+  
+}

@@ -5,7 +5,7 @@ import Julio from '~/../public/assets/home/foto-julio.png'
 
 export const Founders: React.FC = () => {
   return (
-    <div className={Style.container}>
+    <div className={Style.container + ' bottomright toprightMobile'}>
       <p className={Style.headline}>Os realizadores</p>
       <div className={Style.flex}>
         <div className={Style.flexItem}>

@@ -2,7 +2,7 @@ import Style from './For.module.css'
 
 export const For: React.FC = () => {
   return (
-    <div className={Style.container}>
+    <div className={Style.container + ' ' + 'bottomleft'}>
       <p className={Style.headline}>Para quem é a Meu Livro de Bolso?</p>
       <div className={Style.flex}>
         <div className={Style.flexItem}>

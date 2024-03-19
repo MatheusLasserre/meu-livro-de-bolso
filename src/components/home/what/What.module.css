@@ -34,6 +34,7 @@
     margin-top: -30px;
     margin-left: -30px;
     position: absolute;
+    z-index: 9999999;
 }
 
 @media screen and (max-width:1200px) {

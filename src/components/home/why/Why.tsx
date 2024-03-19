@@ -4,7 +4,7 @@ import NewsImage from '~/../public/assets/home/news.png'
 
 export const Why: React.FC = () => {
   return (
-    <div className={Style.containerWrapper}>
+    <div className={Style.containerWrapper + ' ' + 'topright'}>
       <div className={Style.container}>
         <p className={Style.headline}>Por que ter um audiobook?</p>
         <div className={Style.flex}>
