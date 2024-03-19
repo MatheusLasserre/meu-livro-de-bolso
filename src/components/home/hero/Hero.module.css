@@ -5,7 +5,7 @@
     justify-content: center;
     padding-top: 100PX;
     padding-bottom: 100PX;
-    background: url('/assets/home/padrão.png') no-repeat, var(--CREME);
+    background: url('/assets/home/padrão.png') no-repeat top left,url('/assets/home/padrão.png') no-repeat 1375px 0px, var(--CREME);
  }
 
  .box {
@@ -85,7 +85,7 @@
 @media screen and (max-width:800px) {
 
     .container {
-        background: url('/assets/home/padrão.png') no-repeat 50% 0% / 900px, url('/assets/home/padrão.png') no-repeat 50% 20% / 900px, var(--CREME);
+        background: url('/assets/home/padrão.png') no-repeat 50% 0% / 900px, var(--CREME);
         padding-bottom: 0;
     }
 

@@ -5,7 +5,7 @@
     justify-content: center;
     padding-top: 67px;
     padding-bottom: 258px;
-background:url('/assets/home/footer.png') no-repeat 0% 100%,url('/assets/home/footer.png') no-repeat 117.5% 100% ,var(--PRETO);
+background:url('/assets/home/footer.png') no-repeat 0% 100%,url('/assets/home/footer.png') no-repeat 1374px 100% ,var(--PRETO);
 }
 
 .disclaimer {
