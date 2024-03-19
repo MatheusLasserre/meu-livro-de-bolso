@@ -82,11 +82,25 @@
     position: relative;
 }
 
+.container::after {
+    content: '';
+    background: url('/assets/home/hero-art.png');
+    width: 207px;
+    height: 346px;
+    position: absolute;
+    left: 80%;
+    top: 20%;
+}
+
 @media screen and (max-width:800px) {
 
     .container {
         background: url('/assets/home/padrão.png') no-repeat 50% 0% / 900px, var(--CREME);
         padding-bottom: 0;
+    }
+
+    .container::after {
+        display: none;
     }
 
     .box {
